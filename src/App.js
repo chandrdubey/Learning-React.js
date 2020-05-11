@@ -1,26 +1,33 @@
 import React from 'react';
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
-
+import Greet from  './components/Greet'
+import Welcome from  './components/Welcome'
+import Counter from  './components/Count'
+import FunctionClick from  './components/FunctionClick'
+import ClassClick from  './components/ClassClick'
+import Eventbind from  './components/Eventbind'
+import ParentComponent from  './components/ParentComponent'
+import List from  './components/List'
+import Stylesheet from  './components/Stylesheet'
+import Form from  './components/Form'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <Form/>
+
+     {/*<Stylesheet check={true}/>
+    <List/>
+    <ParentComponent/>
+      <Eventbind/>
+    <ClassClick/>
+     <FunctionClick/>
+     <Welcome/>  
+     <Greet/> 
+     <Counter/>
+        */}
     </div>
   );
-}
+ }
 
 export default App;
