@@ -11,12 +11,13 @@ import ParentComponent from  './components/ParentComponent'
 import List from  './components/List'
 import Stylesheet from  './components/Stylesheet'
 import Form from  './components/Form'
+import LifeCycleA from  './components/LifeCycleA'
 function App() {
   return (
     <div className="App">
-     <Form/>
-
-     {/*<Stylesheet check={true}/>
+    <LifeCycleA/>
+     {/*<Form/>
+     <Stylesheet check={true}/>
     <List/>
     <ParentComponent/>
       <Eventbind/>
