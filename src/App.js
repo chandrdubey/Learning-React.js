@@ -12,11 +12,15 @@ import List from  './components/List'
 import Stylesheet from  './components/Stylesheet'
 import Form from  './components/Form'
 import LifeCycleA from  './components/LifeCycleA'
+import FragmentDemo from  './components/FragmentDemo'
+import Table from  './components/Table'
 function App() {
   return (
     <div className="App">
-    <LifeCycleA/>
-     {/*<Form/>
+    <Table/>
+    {/*<FragmentDemo/>
+     <LifeCycleA/>
+    <Form/>
      <Stylesheet check={true}/>
     <List/>
     <ParentComponent/>
